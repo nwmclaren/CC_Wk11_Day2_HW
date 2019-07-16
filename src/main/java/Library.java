@@ -19,7 +19,7 @@ public class Library {
         }
     }
 
-    public void removeBook(){
-        this.books.remove(0);
+    public void removeBook(Book book){
+        this.books.remove(book);
     }
 }
