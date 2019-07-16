@@ -18,4 +18,8 @@ public class Library {
             this.books.add(book);
         }
     }
+
+    public void removeBook(){
+        this.books.remove(0);
+    }
 }
